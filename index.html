@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter-(Book Your Hotels online)</title>
+    <link rel="icon" href="logo.avif">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="css/Bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/Bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="navs" class="nav-tab" style="background-color: burlywood;">
+        <ul class="nav nav-tabs">
+            <h1>SHELTER</h1>
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#room">Rooms</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Go-To</a>
+                <div class="dropdown-menu">
+                    <a href="#room" class="dropdown-item">Rooms</a>
+                    <a href="#staff" class="dropdown-item">Staff</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#check" class="dropdown-item">Check Availability</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="boobooking.html" class="dropdown-item">Booking</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+        </ul>
+    </div>
+    <div data-bs-target="#navs">
+        <h2 id="home"></h2>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url(1.jpg);">
+                    <div class="container">
+                        <h1>Discover A Brand</h1>
+                        <h1>Luxurious Hotel</h1>
+                        <center><a href="#room" class="btn btn-lg btn-warning">Our Rooms</a>
+                            <a href="booking.html" class="btn btn-lg btn-dark">Book a Room</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(9.jpg);">
+                    <div class="container">
+                        <h1>Discover A Brand</h1>
+                        <h1>Luxurious Hotel</h1>
+                        <center><a href="#room" class="btn btn-lg btn-warning">Our Rooms</a>
+                            <a href="booking.html" class="btn btn-lg btn-dark">Book a Room</a>
+                        </center>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(11.avif);">
+                    <div class="container">
+                        <h1>Discover A Brand</h1>
+                        <h1>Luxurious Hotel</h1>
+                        <center><a href="#room" class="btn btn-lg btn-warning">Our Rooms</a>
+                            <a href="booking.html" class="btn btn-lg btn-dark">Book A Room</a>
+                        </center>
+                    </div>
+                </div>
+                <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" area-hidden="true"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="prev">
+                    <span class="sr-only">next</span>
+                    <span class="carousel-control-next-icon" area-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+        <br>
+        <center>
+            <h2 class="about">About US</h2>
+        </center>
+        <br><br>
+        <div id="about" onclick="about();">
+            <p>Step into a world of opulence and indulgence at our luxurious hotel, where every moment is crafted to
+                evoke a sense of unparalleled grandeur and sophistication. Nestled amidst breathtaking surroundings, our
+                establishment boasts sumptuously appointed suites adorned with the finest furnishings and amenities to
+                cater to the most discerning of guests. From the moment you arrive, our dedicated staff ensures that
+                every desire is met with seamless precision, offering bespoke services tailored to your every whim.
+                Indulge your palate with exquisite culinary creations prepared by world-renowned chefs, served in
+                elegant dining venues that exude refinement. Relax and rejuvenate mind, body, and soul in our lavish spa
+                retreat, where a myriad of personalized treatments awaits. Whether you seek a romantic getaway, a
+                luxurious escape, or an unforgettable celebration, our hotel sets the stage for unforgettable
+                experiences, promising memories that linger long after your departure.</p>
+            <img src="about1.jpg" alt="" title="Tooltip for Image 1">
+            <img src="about2.jpg" id="about2" alt="" title="Tooltip for Image 2">
+        </div>
+        <br>
+        <div id="room">
+            <center>
+                <h2 class="room">Rooms & Suites</h2>
+            </center>
+            <br>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="room0.jpg" alt="Card image cap" title="Tooltip for Room 1">
+                    <div class="card-body">
+                        <center>
+                            <h4 class="cart-title">Luxury Suite</h4>
+                        </center>
+                        <p class="card-text">The hotel's opulent suite boasted luxurious amenities, offering guests an
+                            exclusive and elegant retreat for their stay in the city.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Update a few minutes ago.</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="room2.jpg" alt="Card image cap" title="Tooltip for Room 2">
+                    <div class="card-body">
+                        <center>
+                            <h4 class="cart-title">King Bedroom</h4>
+                        </center>
+                        <p class="card-text">The spacious king-size bedroom featured lavish furnishings and a
+                            comfortable ambiance, ensuring a serene and restful haven for weary travelers.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Update a few minutes ago.</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="room3.jpg" alt="Card image cap" title="Tooltip for Room 3">
+                    <div class="card-body">
+                        <center>
+                            <h4 class="card-title">Luxurious Studio Room</h4>
+                        </center>
+                        <p class="card-text">The cozy studio room provided a compact yet stylish space, offering all the
+                            comforts needed for a convenient and enjoyable stay.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Update a few minutes ago.</small>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div id="staff">
+            <center>
+                <h2 class="staff">Our Team & Staff</h2>
+            </center>
+            <br><br>
+            <center>
+                <img src="staff1.jpg" alt="">
+                <img src="staff2.jpg" alt="">
+                <img src="staff3.jpg" alt="">
+                <img src="staff4.jpg" alt="">
+                <!-- Replace your image tags with the following code -->
+
+                
+
+            </center>
+        </div>
+        <br><br><br>
+        <div id="check">
+            <center>
+                <h2 class="check">Check Availability</h2>
+            </center>
+            <br><br><br>
+            <form action="#">
+                <center>
+                    <input type="date" placeholder="Check In" required name="myname" id="date1">
+                    <input type="date" placeholder="Check Out" required name="myname" id="date2">
+                    <input type="number" placeholder="No. Of Guests" name="myname" required id="guest">
+                </center>
+                <br>
+                <center>
+                    <input type="button" class="btn" value="Check Availability" onclick="check();">
+                </center>
+            </form>
+            <br><br><br>
+        </div>
+        <div id="services">
+            <center>
+                <h2 class="services">
+                    Our Provided Locations
+                </h2>
+            </center>
+            <br>
+            <center>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6666483185586!2d74.8392277746042!3d12.993160314406174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba3516487b0a90b%3A0xe7ffea393897bdd9!2sMRPL%20Employees%20Recreation%20Center!5e0!3m2!1sen!2sin!4v1710071022088!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </center>
+            <br><br>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a href="https://www.youtube.com/" target="_blank"><img src="you.jpg" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/" target="_blank"><img src="linkdin.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.facebook.com/home" target="_blank"><img src="face.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.instagram.com/" target="_blank"><img src="insta.jpg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <footer class="bg-light py-3">
+      <div class="container">
+          
+          </div>
+          <hr>
+          <h5>Copyright &copy;2023 <a href="#">SA Coding</a> All Rights Reserved</h5>
+      </div>
+  </footer>
+    <script src="hotel.js">
+    </script>
+</body>
+
+</html>
